@@ -6,7 +6,7 @@ const man = {
 }
 
 const keys = Object.keys(man);
-console.log(keys);
+
 
 for(const key of keys){
     console.log('Key:', key, '|', typeof man[key]); 
